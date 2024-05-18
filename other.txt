@@ -1,0 +1,76 @@
+readme_tittle 
+// main.c
+#include "windows.h"
+#include "print_custom.h"
+#include "print_basic.h"
+void tutorial() {
+	print_custom(L"晓美焰", L"我要玩圆神",2,1,1,0,0,1);
+	print_custom(L"美树沙耶香", L"不准玩圆神",2,1,1,0,0,1);
+	print_custom(L"巴麻美", L"圆神是我的",2,1,1,0,0,1);
+	print_custom(L"鹿目圆", L"玩我干什么,nmsl,去玩舞萌DX！",2,1,1,0,0,1);
+	print_custom(L"晓美焰", L"可是不更新",2,1,1,0,0,1);
+	print_custom(L"佐仓杏子", L"那就杀了kohaD的双亲",2,1,1,0,0,1);
+	print_custom(L"晓美焰", L"快哉",2,1,1,0,0,1);
+	print_custom(L"张三", L"这是示例文本",2,1,1,0,0,1);
+    print_basic(L"名称", L"文字", "0", 0);   // 主题 0
+    print_basic(L"名称", L"文字", "1-A", 0); // 主题 1-A
+    print_basic(L"名称", L"文字", "2-A", 0); // 主题 2-A
+    print_basic(L"名称", L"文字", "3-A", 0); // 主题 3-A
+    print_basic(L"名称", L"文字", "1-B", 0); // 主题 1-B
+    print_basic(L"名称", L"文字", "2-B", 0); // 主题 2-B
+    print_basic(L"名称", L"文字", "3-B", 0); // 主题 3-B
+    print_basic(L"名称", L"文字", "1-C", 0); // 主题 1-C
+    print_basic(L"名称", L"文字", "2-C", 0); // 主题 2-C
+    print_basic(L"名称", L"文字", "3-C", 0); // 主题 3-C
+    print_basic(L"名称", L"文字", "1-D", 0); // 主题 1-D
+    print_basic(L"名称", L"文字", "2-D", 0); // 主题 2-D
+    print_basic(L"名称", L"文字", "3-D", 0); // 主题 3-D
+}
+
+int main() {
+	SetConsoleTitleA("新的窗口标题");
+	tutorial();
+    return 0;
+}
+
+
+
+
+
+    tutorial for main
+
+    这是样板内容的函数定义，放在 int main()前
+
+void tutorial() {
+    print_custom(L"晓美焰", L"我要玩圆神",2,1,1,0,0,1);
+    print_custom(L"美树沙耶香", L"不准玩圆神",2,1,1,0,0,1);
+    print_custom(L"巴麻美", L"圆神是我的",2,1,1,0,0,1);
+    print_custom(L"鹿目圆", L"玩我干什么,nmsl,去玩舞萌DX！",2,1,1,0,0,1);
+    print_custom(L"晓美焰", L"可是不更新",2,1,1,0,0,1);
+    print_custom(L"佐仓杏子", L"那就杀了kohaD",2,1,1,0,0,1);
+    print_custom(L"晓美焰", L"快哉",2,1,1,0,0,1);
+    print_custom(L"张三", L"这是示例文本",2,1,1,0,0,1);
+    // Demonstrate themes
+    print_basic(L"名称", L"文字", "0", 0);   // 主题 0
+    print_basic(L"名称", L"文字", "1-A", 0); // 主题 1-A
+    print_basic(L"名称", L"文字", "2-A", 0); // 主题 2-A
+    print_basic(L"名称", L"文字", "3-A", 0); // 主题 3-A
+    print_basic(L"名称", L"文字", "1-B", 0); // 主题 1-B
+    print_basic(L"名称", L"文字", "2-B", 0); // 主题 2-B
+    print_basic(L"名称", L"文字", "3-B", 0); // 主题 3-B
+    print_basic(L"名称", L"文字", "1-C", 0); // 主题 1-C
+    print_basic(L"名称", L"文字", "2-C", 0); // 主题 2-C
+    print_basic(L"名称", L"文字", "3-C", 0); // 主题 3-C
+    print_basic(L"名称", L"文字", "1-D", 0); // 主题 1-D
+    print_basic(L"名称", L"文字", "2-D", 0); // 主题 2-D
+    print_basic(L"名称", L"文字", "3-D", 0); // 主题 3-D
+}
+
+如何使用
+tutorial();
+
+
+tutorial  2
+	print_custom(L"晓美焰", L"我要玩圆神",2,1,1,0,0,1);
+	print_basic(L"晓美焰", L"我要玩圆神", "1-B", 1); // 主题 1-B
+	作用完全相同
